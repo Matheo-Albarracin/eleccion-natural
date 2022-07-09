@@ -357,3 +357,7 @@
         height: 50px;
 }
 }
+
+.link_items:hover{
+    transform: scale(1.15)
+}
