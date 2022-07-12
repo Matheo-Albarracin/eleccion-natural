@@ -60,15 +60,15 @@
 .redes__sociales__imagen__twitter{
     width: 40px;
     position: absolute;
-    left: 16%;
-    bottom: 49%;
+    left: 18%;
+    bottom: 39%;
 }
 
 .redes__sociales__imagen__instagram{
     width: 30px;
     position: absolute;
-    left: 7%;
-    top: 42%;
+    left: 10%;
+    top: 51%;
 }
 
 .whatsapp{
@@ -360,4 +360,9 @@
 
 .link_items:hover{
     transform: scale(1.15)
+}
+
+.container-fluid{
+    position: absolute;
+    background-image: url(../imagenes/Frutos.jpg);
 }
