@@ -12,6 +12,11 @@
     background-image: url(../imagenes/Frutos.jpg);
 }
 
+.body {
+    display: grid;
+    justify-content: auto;
+    background-color: pink; }
+
 .link_items{
     display:inline-block;
     margin: 16px;
@@ -49,12 +54,6 @@
 .redes__sociales{   
     margin: 5px;
     padding: 5px;
-}
-
-.body{
-    display: grid;
-    justify-content: auto;
-    background-color:pink
 }
 
 .redes__sociales__imagen__twitter{

@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+} *
+
+.body{
+    display: grid;
+    justify-content: auto;
+    background-color:pink
+}
+
+.section{
+
+    h3{
+        ul{
+            li{
+                img{
+                    li{
+                        img{
+                            li{
+                                img{
+                                    ul{
+                                        list-style:none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.body{
+    .link{
+        &__items{
+            &__navegador{
+                &:hover{
+                    transform: scale(5);
+                    transition-duration: 2s;
+                }
+            }
+        }
+    }
+}
+
