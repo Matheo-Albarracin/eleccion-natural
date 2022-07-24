@@ -1,21 +1,25 @@
 *{
     padding: 0;
     margin: 0;
-} *
+} 
+
+/* HTML INDEX */
 
 .link{
     margin: 0%;
     padding: 1%;
-    width: 98%;
+    width: 100%;
     border: 3px solid purple;
     height: 100%;
-    background-image: url(../imagenes/Frutos.jpg);
+    background-image: url(../imagenes/Frutos.jpg);}
+
+.navegador{
+    width: 100%;
 }
 
 .body {
-    display: grid;
-    justify-content: auto;
     background-color: pink; }
+
 
 .link{
     display: flex;
@@ -31,17 +35,18 @@
 }
 
 .titulo{
-   color: black ; 
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   letter-spacing: 1px;
-   word-spacing: 3px;
-   text-align: center;
+    color: black ; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center;
 }
 
 .texto{
     color:black;
     font-family: 'Times New Roman', Times, serif;
     line-height: 40px;
+    text-align: center;
 }
 
 .inicio{
@@ -60,35 +65,37 @@
 
 .redes__sociales__imagen__twitter{
     width: 40px;
-    position: absolute;
     left: 16%;
     bottom: 49%;
 }
 
 .redes__sociales__imagen__instagram{
     width: 30px;
-    position: absolute;
     left: 7%;
     top: 42%;
 }
 
 .whatsapp{
+    position: sticky;
     width: 75px;
-    position:absolute;
     right: 0%;
     bottom: 0%;
 }
 
 .formulario{
-    margin: 0%;
+    display: flex;
+    flex-direction:row;
     padding: 1%;
-    position: absolute;
-    left: 0%;
     bottom: 20%;
 }
 
+.container__frutos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .titulo__encuesta{
-    position: absolute;
     left: 40%;
     right: 35%;
     bottom: 50%;
@@ -96,39 +103,45 @@
 }
 
 .subtitulo__encuesta{
-    position: absolute;
     bottom: 40%;
     left: 45%;
 }
 
 .titulo__frutos{
-    position: absolute;
     bottom: 40%;
     left: 70%;
 }
 
 .foto__frutos{
-    position: absolute;
     width: 10%;
     bottom: 25%;
     right: 5%;
 }
 
 .foto__frutos__segundo{
-    position: absolute;
     width: 15%;
     bottom: 25%;
     right: 16%;
 }
 
+.container{
+    background-color:gray
+}
+
+.img-fluid{
+    width: 30px;
+}
+
+.container ul{
+    list-style:square;
+}
+
+/* CONTACTO HTML*/
+
 .galeria__foto{
-    width: 200px;
-    display: grid;
-    grid-row: auto;
+    width: 195px;
+    display: flex;
     justify-content: center;
-    position: relative;
-    top: 15%;
-    left: 40%;
 }
 
 .atencion{
@@ -138,69 +151,33 @@
     font-size: 160%;
 }
 
+.section__contactos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .texto__atencion{
-    position: absolute;
-    top: 72%;
-    left: 18%;
+    display: flex;
+    justify-content: center;
     font-size: 120%;
     padding-top: 15px;
 }
 
 .contactarnos__maneras{
-   position: absolute;
-   right: 40%;
-   font-size: 150%;
-   top: 85%;
-   text-decoration:line-through
+    font-size: 150%;
+    top: 85%;
+    text-decoration:line-through
 }
 
 .contactarnos__maneras_lista{
-    position: absolute;
-    left: 0%;
-    top: 95%;
     font-size: 100%;
     text-decoration:underline crimson
 }
 
-.redes__sociales__titulo{
-    position: absolute;
-    top: 110%;
-    right: 47%;
 
-}
-
-.instagram{
-    position: absolute;
-    top:120%;
-    font-size: 80px;
-    text-decoration:line-through    
-}
-
-.twitter{
-    position: absolute;
-    top: 150%;
-    font-size: 60px;
-    text-decoration:line-through   
-}
-
-.instagram__logo{
-    width: 60px;
-    position: absolute;
-    top: 124%;
-    left: 25%;
-}
-
-.twitter__logo{
-    width: 70px;
-    position: absolute;
-    top: 153%;
-    left: 57%;
-}
 
 .titulo__productos{
-    position: absolute;
-    right: 36%;
-    top: 32%;
     font-size: 45px;
     text-decoration:underline
 }
@@ -210,65 +187,38 @@
     display: flex;
     flex-direction:row;
     align-items: center;
-    position: absolute;
-    bottom: 10%;
     list-style: none;
     font-style: oblique;
 }
 
 .como__ordenar{
-    position: absolute;
-    bottom: 0%;
-    right: 36%;
-    top: 105%;
     font-size: 3em;
 }
 
 .texto__como__ordenar{
-    position: absolute;
-    top: 120%;
     font-size: 40px;
     border: solid 5px purple 
 }
 
 .titulo__redes__sociales{
-    position: absolute;
-    top: 155%;
-    right: 40%;
     font-size: 2em;
     text-decoration: line-through;
 }
 
-.texto__instagram{
-    position: absolute;
-    top:165%;
-    font-size:2em
-}
-
-.texto__twitter{
-    position: absolute;
-    top: 175%;
-    font-size: 2em;
-}
-
-.logito__instagram{
-    width: 35px;
-    position: absolute;
-    top: 165%;
-    right: 87%;
-}
-
-.logito__twitter{
-    width: 60px;
-    position: absolute;
-    top:175%;
-    right: 65%;
-}
+/* TIENDA */
 
 .texto__quienes__somos{
     font-size: 45px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.link__quienes{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+/* QUIENES SOMOS */
 
 .maps{
     color: black; 
@@ -280,112 +230,36 @@
 }
 
 .texto__maps{
+    display: flex;
+    justify-content: space-around;
     font-size: 30px;
     text-decoration:overline
 }
 
-.maps__mapa{
-    position: absolute;
-    right: 30%;
-    top: 60%;
-}
-
-.redes__sociales__{
-    position: absolute;
-    top:140%;
-    right: 30%;
-    text-decoration: line-through;
-    font-size: 4em;
-}
-
-.texto__ig{
-    position: absolute;
-    top: 160%;
-    text-decoration: overline;
-    font-size: 3em;
-}
-
-.texto__twt{
-    position: absolute;
-    top: 185%;
-    text-decoration: overline;
-    font-size: 3em;
-}
-
-.logo__ig{
-    width: 55px;
-    position: absolute;
-    top:159%;
-    right: 79%;
-}
-
-.logo__twt{
-    width: 85px;
-    position: absolute;
-    top: 186%;
-    right: 47%;
-}
-
 @media screen and (max-width: 768px){
- .body{
-    background-color: red;
-    width: 200px;
-    display: grid;
-    grid-row: auto;
-    justify-content: center;
-    position: relative;
-    top: 15%;
-    left: 40%;
-    max-width: 100%;
- }
 }
 
 @media screen and (max-width: 320px){
-.body{
-    background-color: pink;
-    width: 200px;
-    display: grid;
-    grid-row: auto;
+.texto{
+    font-size: 12px;
+    line-height: 10px;
+}
+
+.inicio{
+    margin: 10px auto;
+}
+
+.formulario{
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
-    position: relative;
-    top: 15%;
-    left: 40%;
-    max-width: 100%;
-}
-.maps__mapa{
-        position: absolute;
-        right: 30%;
-        top: 60%;
-        width: 50px;
-        height: 50px;
-}
 }
 
-.footer__redes{
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
+.navegador{
+    justify-content: center;
 }
 
-.footer__contacto{
-    position: absolute;
-    top: 110%;
-    width: 100%;
+.navegador ul li a{
+    font-size: 11px;
 }
-
-.footer__tienda{
-    width: 100%;
-    position: absolute;
-    top: 165%;
-}
-
-.link__quienes{
-    display: flex;
-    justify-content: space-around
-}
-
-.footer__ubicacion{
-    width: 100%;
-    position: absolute;
-    top: 130%;
 }
