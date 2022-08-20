@@ -211,9 +211,6 @@
 }
 
 .atencion{
-    position: relative;
-    top: 20%;
-    left: 35%;
     font-size: 160%;
 }
 
@@ -305,6 +302,10 @@
 @media screen and (max-width: 768px){
 }
 
+.imagenes__frutos{
+    height: 100px;
+}
+
 @media screen and (max-width: 320px){
 .texto{
     font-size: 12px;
@@ -327,5 +328,14 @@
 
 .navegador ul li a{
     font-size: 11px;
+}
+
+.imagenes__frutos{
+    height: 50px;
+}
+
+.maps__mapa{
+    height: 250px;
+    width: 250px;
 }
 }
